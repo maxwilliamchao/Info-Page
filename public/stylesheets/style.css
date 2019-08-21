@@ -1,8 +1,56 @@
-body {
+/* body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
+} */
 
 a {
   color: #00B7FF;
+}
+
+li{
+  padding: 0px 30px 0px 0px;
+}
+
+footer{
+  background: black;
+  color: white;
+}
+
+#languages{
+  padding: 7px;
+}
+
+.container{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.headerTop{
+  background-color: #343a40;
+  color: red;
+  padding: 15px;
+}
+
+.languageList{
+  display: block;
+  float: right;
+}
+
+.stickyNavContainer{
+  padding: 20px 0px;
+  background-color: white;
+}
+
+.zoom {
+  padding: 50px;
+  background-image: url('https://images.unsplash.com/photo-1472232533367-7fea57261049?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3300&q=80');
+  transition: transform .2s; /* Animation */
+  width: 100%;
+  height: 200px;
+  margin: 5px 5px 5px 5px;
+  float: right;
+}
+
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }

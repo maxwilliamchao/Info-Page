@@ -3,9 +3,532 @@
   <head>
     <title><%= title %></title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <header>
+      <div class="headerTop">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6">
+              <ul class="list-unstyled list-group list-group-horizontal">
+                <li>
+                  <i class="fa fa-envelope"></i>
+                  contact@example.com
+                </li>
+                <li>
+                  <i class="fa fa-phone"></i>
+                  1(800)999-9999
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-6">
+              <ul  class="list-unstyled list-group list-group-horizontal languageList">
+                <li>
+                  <a href="#">
+                    <button type="button" class="btn btn-secondary" id="languages">Language 1</button>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <button type="button" class="btn btn-secondary" id="languages">Language 2</button>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <button type="button" class="btn btn-secondary" id="languages">Language 3</button>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <button type="button" class="btn btn-secondary" id="languages">Language 4</button>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </header>
+    <section>
+      <div class="stickyNavContainer" style="position: -webkit-sticky; position: sticky; top: 0">
+        <div class="container">
+          <nav class="navbar-nav" style="display: inline;">
+            <a href="index.html">
+              <img src="https://snazzytheme.com/premium-themes/projectai-v1.0.3/images/logo.png" alt="company logo">
+            </a>
+            <ul class="list-unstyled list-group list-group-horizontal" style="float: right; padding: 20px 0px">
+              <li>
+                <a href="index.html">Home</a>
+              </li>
+              <li>
+                <a href="#">About</a>
+              </li>
+              <li>
+                <a href="#">Contact</a>
+              </li>
+              <li>
+                <input type="text" placeholder="Search this site">
+                <input type="submit" value="Search">
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="jumbotron jumbotron-fluid">
+        <canvas id="canvas" width="1680" height="840"></canvas>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-12">
+            <img src="https://snazzytheme.com/premium-themes/projectai-v1.0.3/images/image1.png" alt="img">
+          </div>
+          <div class="col-lg-6 col-md-12">
+            <h2>We are specialists in the practical application of Artificial Intelligence</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+        <div class="row" style="background: lightgrey">
+          <div class="col-lg-6 col-md-12">
+            <img style="width: 100%" src="https://images.unsplash.com/photo-1478358161113-b0e11994a36b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3334&q=80" alt="img">
+          </div>
+          <div class="col-lg-6 col-md-12" style="padding: 150px 400px 0px 100px;">
+            <h2>We are specialists in the practical application of Artificial Intelligence</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <ul class="list-unstyled">
+              <li>
+                <i class="fa fa-thumbs-up" style="font-size: 36px; color: red; margin: 30px 0px 0px 0px"></i>
+                Placeholder text here
+              </li>
+              <li>
+                <i class="fa fa-retweet" style="font-size: 36px; color: red; margin: 30px 0px 0px 0px"></i>
+                Placeholder text here
+              </li>
+              <li>
+                <i class="fa fa-map-signs" style="font-size: 36px; color: red; margin: 30px 0px 0px 0px"></i>
+                Placeholder text here
+              </li>
+              <li>
+                <i class="fa fa-hourglass" style="font-size: 36px; color: red; margin: 30px 0px 0px 0px"></i>
+                Placeholder text here
+              </li>
+              <li>
+                <i class="fa fa-database" style="font-size: 36px; color: red; margin: 30px 0px 0px 0px"></i>
+                Placeholder text here
+              </li>
+              <li>
+                <i class="fa fa-heart" style="font-size: 36px; color: red; margin: 30px 0px 0px 0px"></i>
+                Placeholder text here
+              </li>
+            </ul>
+          </div>
+        </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h2 style="text-align: center">How it Works</h2>
+            <p style="text-align: center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div class="row">
+              <div class="col-sm-3">
+                <i class="fa fa-edit" style="font-size: 36px; color: blue; margin: 30px 60px 0px 0px; justify-content: center; display: flex;"></i><br>
+                <i class="fa fa-arrow-up" style="font-size: 200px; color: blue; margin: 30px 0px 0px 0px"></i>
+                <h3>AI Survey</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+              <div class="col-sm-3">
+                <h3>Make Plan</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <i class="fa fa-arrow-down" style="font-size: 200px; color: red; margin: 30px 0px 0px 0px"></i>
+                <i class="fa fa-database" style="font-size: 36px; color: red; margin: 30px 60px 0px 0px; justify-content: center; display: flex;"></i><br>
+              </div>
+              <div class="col-sm-3">
+                <i class="fa fa-sign-out" style="font-size: 36px; color: gold; margin: 30px 60px 0px 0px; justify-content: center; display: flex;"></i><br>
+                <i class="fa fa-arrow-up" style="font-size: 200px; color: gold; margin: 30px 0px 0px 0px"></i>
+                <h3>Data Execute</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+              <div class="col-sm-3">
+                <h3>Start Project</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <i class="fa fa-arrow-down" style="font-size: 200px; color: green; margin: 30px 0px 0px 0px"></i>
+                <i class="fa fa-paper-plane" style="font-size: 36px; color: green; margin: 30px 60px 0px 0px; justify-content: center; display: flex;"></i><br>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="jumbotron jumbotron-fluid">
+          <div class="container">
+            <h2 style="text-align: center; margin-bottom: 15px">You are one step closer to starting your AI project</h2>
+            <p style="text-align: center; margin-bottom: 15px">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <button type="button" class="btn btn-dark btn-large" style="display: table; margin: 0 auto">Start Now
+              <i class="fa fa-paper-plane" style="font-size: 36px; color: red;"></i>
+            </button>
+          </div>
+      </div>
+    </section>
+    <section style="background-image: url('https://www.oneyogaglobal.com/wp-content/uploads/2015/11/white-marble-background.jpg')">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h2 style="text-align: center">Our Latest Events</h2>
+            <p style="text-align: center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="card" style="width: 100%; margin-bottom: 50px">
+            <div class="card-body">
+              <div class="col-sm-4" style="width: 33%; float: right">
+                <i class="fa fa-calendar" style="font-size: 200px; margin: 30px 0px 0px 100px"></i>
+              </div>
+              <div class="col-sm-4" style="width: 33%; float: right">
+                <h2>Tale of conversation UX and AI</h2>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </div>
+              <div class="col-sm-4" style="width: 33%; float: right; text-align: center">
+                <h2>October 23rd</h2>
+                <p>Miami</p>
+              </div>
+            </div>
+          </div>
+          <div class="card" style="width: 100%; margin-bottom: 50px">
+            <div class="card-body">
+              <div class="col-sm-4" style="width: 33%; float: right">
+                <i class="fa fa-map-signs" style="font-size: 200px; margin: 30px 0px 0px 100px"></i>
+              </div>
+              <div class="col-sm-4" style="width: 33%; float: right">
+                <h2>Tale of conversation UX and AI</h2>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </div>
+              <div class="col-sm-4" style="width: 33%; float: right; text-align: center">
+                <h2>March 11th</h2>
+                <p>New York</p>
+              </div>
+            </div>
+          </div>
+          <div class="card" style="width: 100%; margin-bottom: 50px">
+            <div class="card-body">
+              <div class="col-sm-4" style="width: 33%; float: right">
+                <i class="fa fa-connectdevelop" style="font-size: 200px; margin: 30px 0px 0px 100px"></i>
+              </div>
+              <div class="col-sm-4" style="width: 33%; float: right">
+                <h2>Tale of conversation UX and AI</h2>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </div>
+              <div class="col-sm-4" style="width: 33%; float: right; text-align: center">
+                <h2>July 21st</h2>
+                <p>Atlanta</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="row" style="background: lightgrey">
+        <div class="row">
+          <div class="col-sm-10">
+            <div class="zoom">
+            </div>
+            <div class="zoom">
+            </div>
+            <div class="zoom">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-10">
+            <div class="zoom">
+            </div>
+            <div class="zoom">
+            </div>
+            <div class="zoom">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-10">
+            <div class="zoom">
+            </div>
+            <div class="zoom">
+            </div>
+            <div class="zoom">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12" style="padding: 150px 400px 0px 100px;">
+          <h2>We are specialists in the practical application of Artificial Intelligence</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <button type="button" class="btn btn-danger">View All</button>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h2 style="text-align: center">Our Latest Events</h2>
+            <p style="text-align: center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="width: 100%">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="https://static.theblacktux.com/products/suits/navy-suit/1_18_NS_7246_Ext_F_1812x1875.jpg" alt="First slide">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Joe</h5>
+                  <p>Marketing</p>
+                  <a href="#">
+                    <span class="fa fa-linkedin"></span>
+                  </a>
+                  <a href="#">
+                    <span class="fa fa-google"></span>
+                  </a>
+                  <a href="#">
+                    <span class="fa fa-yahoo"></span>
+                  </a>
+                  <a href="#">
+                    <span class="fa fa-skype"></span>
+                  </a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="https://studiomenswear.com/wp-content/uploads/2019/01/BOSA_HUNTER.jpg" alt="Second slide">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>David</h5>
+                  <p>Finance</p>
+                  <a href="#">
+                    <span class="fa fa-linkedin"></span>
+                  </a>
+                  <a href="#">
+                    <span class="fa fa-google"></span>
+                  </a>
+                  <a href="#">
+                    <span class="fa fa-yahoo"></span>
+                  </a>
+                  <a href="#">
+                    <span class="fa fa-skype"></span>
+                  </a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="https://dqp736wsu6w3m.cloudfront.net/sumissura/og/dimg/landing/woman_suitpants/32_2.png" alt="Third slide">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Brooke</h5>
+                  <p>Founder</p>
+                  <a href="#">
+                    <span class="fa fa-linkedin"></span>
+                  </a>
+                  <a href="#">
+                    <span class="fa fa-google"></span>
+                  </a>
+                  <a href="#">
+                    <span class="fa fa-yahoo"></span>
+                  </a>
+                  <a href="#">
+                    <span class="fa fa-skype"></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="row" style="background: darkgrey">
+        <div class="container">
+          <div class="row" style="margin-top: 150px">
+            <div class="col-sm-12">
+              <h2 style="text-align: center">Latest Blogs</h2>
+              <p style="text-align: center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+            <div class="card" style="width: 30%; margin-bottom: 50px; margin-right: 15px; float: right">
+                <img class="card-img-top" src="http://icons.iconarchive.com/icons/danleech/simple/256/github-icon.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card" style="width: 30%; margin-bottom: 50px; margin-right: 15px; float: right">
+                <img class="card-img-top" src="https://static2.clutch.co/s3fs-public/logos/microsoft_azure_logo.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card" style="width: 30%; margin-bottom: 50px; margin-right: 15px; float: right">
+                <img class="card-img-top" src="https://res-5.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/v1482425567/kcxbyucfdnpd7e4rwrsq.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+          </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="https://res-2.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/v1486388103/stwhonqithrbfkmucxz0.png" alt="First slide">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h3>Partner</h3>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="https://cdn.fing.io/images/isp/IN/logo/jio_logo.png" alt="Second slide">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h3>Partner</h3>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="https://res-4.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/tvw1j1re6xjak56qhaco" alt="Third slide">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h3>Partner</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="row col-sm-12">
+          <div class="col-sm-3" style="float: right">
+            <h1>
+              <a href="index.html">
+                <img src="https://snazzytheme.com/premium-themes/projectai-v1.0.3/images/logo.png" alt="company logo">
+              </a>
+            </h1>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            <ul class="list-unstyled">
+              <li>
+                <i class="fa fa-envelope"></i>
+                contact@example.com
+              </li>
+              <li>
+                <i class="fa fa-phone"></i>
+                1(800)999-9999
+              </li>
+              <li>
+                <i class="fa fa-paper-plane"></i>
+                Washington Avenue, NY 3568
+              </li>
+            </ul>
+            <ul class="list-unstyled list-group list-group-horizontal">
+              <li>
+                <i class="fa fa-linkedin"></i>
+              </li>
+              <li>
+                <i class="fa fa-google"></i>
+              </li>
+              <li>
+                <i class="fa fa-yahoo"></i>
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-3" style="float: right">
+            <h1>Latest Posts</h1>
+            <h1>Useful Links</h1>
+            <ul class="list-unstyled">
+              <li style="margin-bottom: 5px;">
+                <img src="https://li5.rightinthebox.com/images/50x50/201607/mui1468570384847.jpg" alt="">
+                <a href="#">Project Seminar AI</a>
+              </li>
+              <li style="margin-bottom: 5px;">
+                <img src="https://sc01.alicdn.com/kf/HTB100vMXcrrK1RjSspaq6AREXXa6/Cheap-mini-camera-free-webcam-online-camera.jpg_50x50.jpg" alt="">
+                <a href="#">Lorem ipsum dolar</a>
+              </li>
+              <li style="margin-bottom: 5px;">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMAAAAp4XiDAAAA/1BMVEX///+MjsX6+vzu7/aXmsvz8/imqM+ho8z8/P3d3u2ipdCLj8SxsteMjsb4+Pvq6/LDxNypqs6/wNqdnsnKy+KLj8K4utji4u2tsNDT1OXHyd6hpMq1tdaSlMeWmsb77vLqjGuXpMy60eanyuTj7fRwo9FyrNeRvNt+s9jH3Ot5r9ShvNrZ6fO5zOOCnsvB2uuumMHXu9T54OnpiqzdV4zjY5C9o8Pldp30wdP04+vTcZ7lbZftnbnvsMbi2Ob00d7tp77sg6fXXo/77ejiubLDjpLv0MfSpabtlH3jw8Lje1/yu6f78e3ag3Ckm73vpoz1xra6obbwq5fKv9Dtk3JG+bn0AAADeElEQVRIid1Wa3ebRhBlkRCLBpbHAsuCQPJDipO6jeOYSoqd1K3yUG0ncdv8/9/SXR4CIfS9p3N0zgrt3mXmzp0ZKcr/1dRBv5GjCOwN+83DxyBGig7NEp8hO4IgJkJgdkxHAMgy1X4ID6wx9QsPhcnQbN+kSRgiCHgvQhsHqeGfnJ6dnhdU2LFLE8/QFJYC6FofxAkgxOfzxYuLxUvCHJe6Diuo0qjAOD0IO4PMxi8uzhVyNj+hbsxq/1UzGoq9AwQOATnK+eKlvPbVT3abVi/ykPCgCzHSYKwJyKWEX5zu86LbY0iNDoKMALi8Xx6+nP+8d6VNbZ4it6MBHyBSFcx/mZ9dvl4s6KTtupZw1e0SPaAoYwr2afz61XxxNmARdRpaceQIx0EftCEeQKioXsaxYpzItKh8lPCdJ46JBT3gtRBMkkhCKiM0kvJ6LdYjVoXEBTO2ONNITZ0A+FqUFL8Yu0TbIQ3tKn4mww0mO1aEnyPmuuV2A1Gw4dJYPmlXb6aChIZo4lqpl0TVSaMtJ8KThOPrtzc3+dt1i+gYIM28OlZjX4GaQ3/Nl6vr1e1ybVrgV44iK3V2BWF0RcveLadiWd/esSGikmgprqHfZPsAMs1Xxfr+9oPIp6xpjSI0aRXdAWSd/1asq5urDJAuA3AQSh1yHDLN3xfr/S1zAeIiQN2ygpAcg2DjXb4W63V+b6TWqNzkgNKs5rgLEfl8s8zvV3f57+sRSitpqhEEYZ3JfYigOGLK9O6PfHk/5YFUe2kstXQ2KfXShhCuj7g8NLj6oCoDHZp+hj2EPK1UZQPZyUXcmQwKtbekLLI5ZKX2FVZBGlEKfbiqULtF2wXjBzBRsZ/56ubjp89PVRC7/IaeUHtQErwLc1SolNMvs9n2YbuRamzSS1yu8BQ6xS9/EQ79+fD4hDfbr9+8NtOiXMjooMXIKhPv/f5dOrOZfdzbFIzEwvNuIxO1TAf4x3PB1fZxb88xbQo9A0M0RK86+7T9YreEKhpMiFBPUy4y9TjbiK/Ps79ET96hND1M0X5HqhkQ3e9pO3t8/vvhmTDflZ2clD5T1D9giAsp/+fTj9n2czGPSpR4F7esLsG1CW1nmU+mpDbN8JLM9U047OF1mBNAMN4znVoIUN+kqMzOigHcnsblY888qi3WR70WH0UoWO23o/8U/lP2L9oUT9EtuLdTAAAAAElFTkSuQmCC" alt="">
+                <a href="#">AI Project Seminar</a>
+              </li>
+              <li style="margin-bottom: 5px;">
+                <img src="https://snazzytheme.com/premium-themes/projectai-v1.0.3/images/blog-thumb4.png" alt="">
+                <a href="#">Aicta nostrum</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-3" style="float: right">
+            <h1>Useful Links</h1>
+            <ul>
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#">About Us</a>
+              </li>
+              <li>
+                <a href="#">Solutions</a>
+              </li>
+              <li>
+                <a href="#">Contact</a>
+              </li>
+              <li>
+                <a href="#">Projects</a>
+              </li>
+              <li>
+                <a href="#">FAQ's</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-3" style="float: right">
+            <h1>Subscribe</h1>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            <ul class="list-unstyled">
+              <li>
+                <i class="fa fa-envelope"></i>
+                <input type="text" placeholder="Type your email">
+              </li>
+              <li>
+                <i class="fa fa-phone"></i>
+                <input type="text" placeholder="Type your phone number">
+              </li>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
   </body>
 </html>

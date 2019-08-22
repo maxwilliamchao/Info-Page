@@ -7,7 +7,7 @@
 
 <img width="1669" alt="Screen Shot 2019-08-22 at 4 28 18 PM" src="https://user-images.githubusercontent.com/29391132/63556774-ed15ae80-c4fa-11e9-96f6-de5213cdb4af.png">
 
-<img width="1669" alt="Screen Shot 2019-08-22 at 4 28 27 PM" src="https://user-images.githubusercontent.com/29391132/63556802-00c11500-c4fb-11e9-9b91-3abf68086382.png">
+<img width="1669" alt="Screen Shot 2019-08-22 at 4 53 00 PM" src="https://user-images.githubusercontent.com/29391132/63557395-6dd5aa00-c4fd-11e9-8816-261f301a2d3c.png">
 
 <img width="1669" alt="Screen Shot 2019-08-22 at 4 28 57 PM" src="https://user-images.githubusercontent.com/29391132/63556860-349c3a80-c4fb-11e9-9f3a-a6e4b2f3ea12.png">
 

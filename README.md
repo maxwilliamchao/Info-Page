@@ -11,7 +11,7 @@
 
 <img width="1669" alt="Screen Shot 2019-08-22 at 4 28 57 PM" src="https://user-images.githubusercontent.com/29391132/63556860-349c3a80-c4fb-11e9-9f3a-a6e4b2f3ea12.png">
 
-<iframe src="https://giphy.com/embed/fYSjGabWaejG1I0cPC" width="480" height="294" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/fYSjGabWaejG1I0cPC">via GIPHY</a></p>
+![infoPageGif](https://user-images.githubusercontent.com/29391132/63557293-f6077f80-c4fc-11e9-8dc3-2f1096b05ad4.gif)
 
 <img width="1669" alt="Screen Shot 2019-08-22 at 4 29 19 PM" src="https://user-images.githubusercontent.com/29391132/63557153-6d88df00-c4fc-11e9-8bd0-a6626b111b72.png">
 
